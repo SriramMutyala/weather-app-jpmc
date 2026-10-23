@@ -1,0 +1,4 @@
+<resources>
+    <!-- Base theme: no action bar, Compose draws the UI. -->
+    <style name="Theme.WeatherApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

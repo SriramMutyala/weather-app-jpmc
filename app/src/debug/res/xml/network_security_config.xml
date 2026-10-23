@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  DEBUG-ONLY network security config. Lives in src/debug so it is NOT part of release builds.
+  Adds the "user" trust anchor so a manually-installed corporate root CA (e.g. Zscaler, used
+  for TLS inspection on dev machines) is trusted by the app on an emulator/dev device.
+  Release builds keep Android's default (system CAs only), so this relaxes nothing in production.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

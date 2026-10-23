@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="search_hint">Enter a US city (e.g. Chicago)</string>
+    <string name="search_button">Search</string>
+    <string name="use_my_location">Use my location</string>
+    <string name="feels_like">Feels like %1$s</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="high_low">H: %1$s  L: %2$s</string>
+    <string name="empty_prompt">Search for a US city to see its weather.</string>
+    <string name="error_empty_query">Please enter a city name.</string>
+    <string name="error_not_found">No US city found for \"%1$s\".</string>
+    <string name="error_network">Network error. Check your connection and try again.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_location_unavailable">Couldn\'t get your location. Try searching instead.</string>
+    <string name="cd_weather_icon">Weather condition icon</string>
+    <string name="retry">Retry</string>
+</resources>
